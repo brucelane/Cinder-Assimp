@@ -3,7 +3,7 @@
    And yes, the first animation is glitchy at the moment...
  */
 
-#include "Cinder-Assimp/include/AssimpLoader.h"
+#include "AssimpLoader.h"
 
 #include "cinder/app/App.h"
 #include "cinder/app/RendererGl.h"
@@ -18,8 +18,8 @@ using namespace std;
 #include "cinder/params/Params.h"
 
 
-#include "Cinder-Assimp/include/SkeletalMesh.h"
-#include "Cinder-Assimp/include/Renderer.h"
+#include "SkeletalMesh.h"
+#include "Renderer.h"
 
 using namespace model;
 
